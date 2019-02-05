@@ -21,4 +21,7 @@ Kotlin scripts are suffixed with `.kts`
 Run scripts like so `kotlinc -script [script.kts]`
 
 ## Common commands
- - to start the repl: `kotlinc`
+to start the repl: `kotlinc`
+
+## Syntax
+`fun` is used to create functions
