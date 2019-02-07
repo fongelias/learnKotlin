@@ -25,3 +25,22 @@ to start the repl: `kotlinc`
 
 ## Syntax
 `fun` is used to create functions
+`val` is used to define read-only local variables
+`var` is used to define mutable variables
+`$[varName]` or `${[evaluated expression]}` character used to insert values into strings
+`?` marks references as nullable
+`is` checks if an expression is an instance of a type
+`when ([var]) {[match] -> [expression]}` is used for case expressions
+`when {[boolean] -> [expression]}` is used for case expressions
+`[int]...[int]` is used to represent a range of values
+`for ([var] in [range/collection] step [int]) {}` is used to iterate over a range
+`it` refers to the default variable name in a lambda
+`listof([val], [val])` creates a list
+`mapof([val] to [val], [val] to [val])` creates a map
+`object [name] {}` creates a singleton
+`value?.let {}` executes the `let` block if `value` is not null
+
+## Trivia
+statements can be executed via ternary
+
+
